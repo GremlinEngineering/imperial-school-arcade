@@ -1,0 +1,887 @@
+{
+  "schema": 1,
+  "version": "1.0.1",
+  "canonical_language": "ru",
+  "languages": [
+    "ru",
+    "en"
+  ],
+  "title": {
+    "ru": "Документация Аркадного зала",
+    "en": "Arcade documentation"
+  },
+  "description": {
+    "ru": "Идеи, устройство и открытые материалы Аркадного зала Школы Империи.",
+    "en": "Ideas, architecture and open materials of the Imperial School Arcade."
+  },
+  "components": {
+    "site": "v559",
+    "music": "1.5",
+    "music-similarity": "1.0.2",
+    "theme-packages": "r11",
+    "weather-api": "1.7",
+    "dynamic-contract": "0.2",
+    "sunken-teahouse": "desktop 0.23",
+    "laboratory": "external-canonical",
+    "editorial-engine": "public-existing-2026-11-01",
+    "sunken-teahouse-phone": "composition 0.3 (concept)"
+  },
+  "pages": [
+    {
+      "id": "project",
+      "title": {
+        "ru": "Аркадный зал Школы Империи",
+        "en": "Imperial School Arcade"
+      },
+      "version": "1.0.1",
+      "components": [
+        "catalog",
+        "media",
+        "views",
+        "laboratory"
+      ],
+      "paths": {
+        "ru": "docs/project.md",
+        "en": "docs/en/project.md"
+      },
+      "translation_source_sha256": "39e76a1856174f9cb9a2e431de3637095b359073d9cac4ea08d98f33da60710c"
+    },
+    {
+      "id": "catalog",
+      "title": {
+        "ru": "Каталог игр и источники данных",
+        "en": "Game catalogue and data sources"
+      },
+      "version": "1.0.1",
+      "components": [
+        "catalog"
+      ],
+      "paths": {
+        "ru": "docs/catalog.md",
+        "en": "docs/en/catalog.md"
+      },
+      "translation_source_sha256": "7de856a9555e470a448da2dcb836c9b97b7335c2f90531c75d5d7d59f798e53c"
+    },
+    {
+      "id": "journal",
+      "title": {
+        "ru": "Журнал и личный игровой опыт",
+        "en": "Journal and personal play experience"
+      },
+      "version": "1.0.1",
+      "components": [
+        "journal",
+        "profile",
+        "dynamic"
+      ],
+      "paths": {
+        "ru": "docs/journal.md",
+        "en": "docs/en/journal.md"
+      },
+      "translation_source_sha256": "43ed6295aa95556db2f86c0200add86a5ae6b02a6949de4a9f418958121f1ad6"
+    },
+    {
+      "id": "media",
+      "title": {
+        "ru": "Медиатека, просмотр и поиск",
+        "en": "Media library, viewing and search"
+      },
+      "version": "1.0.1",
+      "components": [
+        "media",
+        "search"
+      ],
+      "paths": {
+        "ru": "docs/media.md",
+        "en": "docs/en/media.md"
+      },
+      "translation_source_sha256": "0b21c69aff1d835a1a9980a78ff1820dbe711eabd751eb584e0d10cf3ebcbf6c"
+    },
+    {
+      "id": "architecture",
+      "title": {
+        "ru": "Устройство Аркадного зала",
+        "en": "Architecture of the Arcade"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/architecture.md",
+        "en": "docs/en/architecture.md"
+      },
+      "translation_source_sha256": "f900d28b1d62643161d10210c30097e494ee709619d0ed9d2b571071697000bf"
+    },
+    {
+      "id": "site-engines",
+      "title": {
+        "ru": "Движки и контуры Аркадного зала",
+        "en": "Components and subsystems"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/site-engines.md",
+        "en": "docs/en/site-engines.md"
+      },
+      "translation_source_sha256": "11f0a9e0c4a089bc46f501b1765be9c24facf4faa9d8b007da345862ec9a50d4"
+    },
+    {
+      "id": "meaning-system",
+      "title": {
+        "ru": "Смысловой движок",
+        "en": "The semantic engine"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/meaning-system.md",
+        "en": "docs/en/meaning-system.md"
+      },
+      "translation_source_sha256": "c7d3bb39f2de2c32be02eb82067ae0e9938e48031e15abc6a3c1fbc568a98cf3"
+    },
+    {
+      "id": "editorial-updates",
+      "title": {
+        "ru": "Когда обновляются материалы",
+        "en": "When materials change"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/editorial-feedback.md",
+        "en": "docs/en/editorial-feedback.md"
+      },
+      "translation_source_sha256": "f3105ade618a3032496b5df830c60a6098b59d45503d61591001879709961812"
+    },
+    {
+      "id": "prompt-pipeline",
+      "title": {
+        "ru": "От данных к тексту и иллюстрации",
+        "en": "From data to writing and artwork"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/prompt-pipeline.md",
+        "en": "docs/en/prompt-pipeline.md"
+      },
+      "translation_source_sha256": "ce7adda607cd30651092ea0fa2139c054ba63e4c244fac6ee832b5bf1fb7ca92"
+    },
+    {
+      "id": "accessibility",
+      "title": {
+        "ru": "Навигация, доступность и метаданные",
+        "en": "Navigation, accessibility and metadata"
+      },
+      "version": "1.0.1",
+      "components": [
+        "accessibility",
+        "semantics"
+      ],
+      "paths": {
+        "ru": "docs/accessibility.md",
+        "en": "docs/en/accessibility.md"
+      },
+      "translation_source_sha256": "44e64c793a49b4545321f5904b239c91a1a5cc3c48f45d2598f220bcec67196a"
+    },
+    {
+      "id": "music",
+      "title": {
+        "ru": "Музыка и плееры GremlinAmp",
+        "en": "Music and GremlinAmp players"
+      },
+      "version": "1.0.1",
+      "components": [
+        "music",
+        "web-player",
+        "gremlinamp"
+      ],
+      "paths": {
+        "ru": "docs/music.md",
+        "en": "docs/en/music.md"
+      },
+      "translation_source_sha256": "46474a9329e02ef41d5a81c980cb4b8d8a7eed4971138876f424548e7a59d28a"
+    },
+    {
+      "id": "music-similarity",
+      "title": {
+        "ru": "Ритм, тембр и акустическая похожесть",
+        "en": "Rhythm, timbre and acoustic similarity"
+      },
+      "version": "1.0.1",
+      "components": [
+        "music-similarity"
+      ],
+      "paths": {
+        "ru": "docs/music-similarity.md",
+        "en": "docs/en/music-similarity.md"
+      },
+      "translation_source_sha256": "33f43531ca8db4bcaaf64a15d57835ca5a2700d81a2b831a8e73f2aab59fb93e"
+    },
+    {
+      "id": "wallpapers",
+      "title": {
+        "ru": "Виды и коллекции обоев",
+        "en": "Views and wallpaper collections"
+      },
+      "version": "1.0.1",
+      "components": [
+        "views",
+        "wallpapers"
+      ],
+      "paths": {
+        "ru": "docs/wallpapers.md",
+        "en": "docs/en/wallpapers.md"
+      },
+      "translation_source_sha256": "62fe97e76fa5fef1472a38b577fc77ab3b14980aeb27faead8493ca21a0d2f56"
+    },
+    {
+      "id": "clients",
+      "title": {
+        "ru": "Приложения обоев и возможности устройств",
+        "en": "Wallpaper applications and device capabilities"
+      },
+      "version": "1.0.1",
+      "components": [
+        "clients",
+        "imperial-school-views"
+      ],
+      "paths": {
+        "ru": "docs/clients.md",
+        "en": "docs/en/clients.md"
+      },
+      "translation_source_sha256": "58670015cd7a876c7bb93edcd1559e198f79ba7c346d0ca1292d356636bb4419"
+    },
+    {
+      "id": "game-world",
+      "title": {
+        "ru": "Погода игрового мира",
+        "en": "Game-world weather"
+      },
+      "version": "1.0.1",
+      "components": [
+        "weather",
+        "game-world"
+      ],
+      "paths": {
+        "ru": "docs/game-world.md",
+        "en": "docs/en/game-world.md"
+      },
+      "translation_source_sha256": "e7e7d14714ce3e506f008891889f99692f0aea792654bee906581840ca430913"
+    },
+    {
+      "id": "laboratory",
+      "title": {
+        "ru": "Лаборатория — отдельный проект",
+        "en": "Laboratory — a separate project"
+      },
+      "version": "1.0.1",
+      "components": [
+        "laboratory"
+      ],
+      "paths": {
+        "ru": "docs/laboratory.md",
+        "en": "docs/en/laboratory.md"
+      },
+      "translation_source_sha256": "44f141a488b4ae63f6df54264bfb4863496a10c7c36ba6f03ec6d9d90221c1a0"
+    },
+    {
+      "id": "visual-identity",
+      "title": {
+        "ru": "Оформление сайта и игровых материалов",
+        "en": "Site and game visual identity"
+      },
+      "version": "1.0.1",
+      "components": [
+        "themes",
+        "artwork"
+      ],
+      "paths": {
+        "ru": "docs/visual-identity.md",
+        "en": "docs/en/visual-identity.md"
+      },
+      "translation_source_sha256": "966979ddc564042691624ff8e81ff0ef247dca1e95a1e59038fc09f1f613eaa9"
+    },
+    {
+      "id": "sunken-teahouse",
+      "title": {
+        "ru": "Затонувшая чайная · Хранители находок",
+        "en": "Sunken Teahouse · Keepers of Finds"
+      },
+      "version": "1.0.1",
+      "components": [
+        "sunken-teahouse"
+      ],
+      "paths": {
+        "ru": "docs/sunken-teahouse.md",
+        "en": "docs/en/sunken-teahouse.md"
+      },
+      "translation_source_sha256": "97c3b0c82af1284a0de808af95a7def4691b7360650914d5042a3ec20aff93e7"
+    },
+    {
+      "id": "composition",
+      "title": {
+        "ru": "Композиция, глубина и свет чайной",
+        "en": "Teahouse composition, depth and lighting"
+      },
+      "version": "1.0.1",
+      "components": [
+        "sunken-teahouse",
+        "compositing"
+      ],
+      "paths": {
+        "ru": "docs/composition.md",
+        "en": "docs/en/composition.md"
+      },
+      "translation_source_sha256": "3abaae3fcb6facf352fdd1b3d48dc16bd71a59a719873b730cc2d905525cbbe3"
+    },
+    {
+      "id": "formats",
+      "title": {
+        "ru": "Спецификации и открытые форматы",
+        "en": "Specifications and open formats"
+      },
+      "version": "1.0.1",
+      "components": [
+        "contracts"
+      ],
+      "paths": {
+        "ru": "docs/formats.md",
+        "en": "docs/en/formats.md"
+      },
+      "translation_source_sha256": "d7d53c522e366f8f82c9d20245099081975d58b95d4e8f307f30af872569c123"
+    },
+    {
+      "id": "editorial-contracts",
+      "title": {
+        "ru": "Форматы на границах системы",
+        "en": "Editorial data contracts"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/contracts.md",
+        "en": "docs/en/contracts.md"
+      },
+      "translation_source_sha256": "f8b7a5c40dadbbbf23598daefbd24528be42237f56025e70b98131d5f349d0a7"
+    },
+    {
+      "id": "music-api",
+      "title": {
+        "ru": "Музыкальный API и идентичность треков",
+        "en": "Music API and track identity"
+      },
+      "version": "1.0.1",
+      "components": [
+        "music-api"
+      ],
+      "paths": {
+        "ru": "docs/music-api.md",
+        "en": "docs/en/music-api.md"
+      },
+      "translation_source_sha256": "8a3d443541f997df3df7838e31aadec7d9381c1904c9620a4a5e8f3a43e04a28"
+    },
+    {
+      "id": "weather-api",
+      "title": {
+        "ru": "Спецификация погодного API",
+        "en": "Weather API specification"
+      },
+      "version": "1.0.1",
+      "components": [
+        "weather-api"
+      ],
+      "paths": {
+        "ru": "docs/weather-api.md",
+        "en": "docs/en/weather-api.md"
+      },
+      "translation_source_sha256": "d86fbb1f86ce4ba91e65498077ed7abcd5f4d9a4a0512fe5da27e669ea1b0c3c"
+    },
+    {
+      "id": "weather-client-contract",
+      "title": {
+        "ru": "Погодные клиенты: полный контракт 1.7",
+        "en": "Weather clients: full contract 1.7"
+      },
+      "version": "1.0.1",
+      "components": [
+        "weather-api"
+      ],
+      "paths": {
+        "ru": "docs/weather-client-contract.md",
+        "en": "docs/en/weather-client-contract.md"
+      },
+      "translation_source_sha256": "9bb3113fc766c094299b1f54598e466f67146b40ea42fb00a2f9fafcde300544"
+    },
+    {
+      "id": "dynamic-wallpapers",
+      "title": {
+        "ru": "Спецификация динамической темы",
+        "en": "Dynamic theme specification"
+      },
+      "version": "1.0.1",
+      "components": [
+        "dynamic-contract",
+        "theme-authoring"
+      ],
+      "paths": {
+        "ru": "docs/dynamic-wallpapers.md",
+        "en": "docs/en/dynamic-wallpapers.md"
+      },
+      "translation_source_sha256": "3e42768af3fd593fe764f5e03258d441dffffe9d66a4fbb5a01fd91a6d6128de"
+    },
+    {
+      "id": "dynamic-api",
+      "title": {
+        "ru": "Динамический кадр, JSON и архивы",
+        "en": "Dynamic frames, JSON and archives"
+      },
+      "version": "1.0.1",
+      "components": [
+        "dynamic-api"
+      ],
+      "paths": {
+        "ru": "docs/dynamic-api.md",
+        "en": "docs/en/dynamic-api.md"
+      },
+      "translation_source_sha256": "5652399756b43a3858dba6f35166a3a50cd3a34cf1d06661e48233e767b6b3fa"
+    },
+    {
+      "id": "numeric-fields",
+      "title": {
+        "ru": "Числовые входы: единицы, диапазоны и условия",
+        "en": "Numeric inputs: units, ranges and conditions"
+      },
+      "version": "1.0.1",
+      "components": [
+        "dynamic-contract",
+        "weather-inputs"
+      ],
+      "paths": {
+        "ru": "docs/numeric-fields.md",
+        "en": "docs/en/numeric-fields.md"
+      },
+      "translation_source_sha256": "0d0ba2975dca380cd6a293f0c7ab747e0be82a7330dad17f705eaa52a1f4b3d3"
+    },
+    {
+      "id": "theme-packages",
+      "title": {
+        "ru": "Пакеты оформления сайта",
+        "en": "Site theme packages"
+      },
+      "version": "1.0.1",
+      "components": [
+        "theme-packages"
+      ],
+      "paths": {
+        "ru": "docs/theme-packages.md",
+        "en": "docs/en/theme-packages.md"
+      },
+      "translation_source_sha256": "31fe5cd4795b695001cdeab37aad49687a95905650c8bd18ae76941ab2579dbe"
+    },
+    {
+      "id": "authoring-prompts",
+      "title": {
+        "ru": "Авторские промпты и создание изображений",
+        "en": "Authoring prompts and image creation"
+      },
+      "version": "1.0.1",
+      "components": [
+        "sunken-teahouse",
+        "sources"
+      ],
+      "paths": {
+        "ru": "docs/authoring-prompts.md",
+        "en": "docs/en/authoring-prompts.md"
+      },
+      "translation_source_sha256": "65121c19193de806c64ae20a142a596ef5720921ee63906a7bbceb1b9b95a6c3"
+    },
+    {
+      "id": "sources",
+      "title": {
+        "ru": "Источники и методы",
+        "en": "Sources and methods"
+      },
+      "version": "1.0.1",
+      "components": [
+        "sources",
+        "rights"
+      ],
+      "paths": {
+        "ru": "docs/sources.md",
+        "en": "docs/en/sources.md"
+      },
+      "translation_source_sha256": "f15c2b1c4ba4c6732988d0b828a2330cfdebe14a678b91cd78601e18aaa07f5d"
+    },
+    {
+      "id": "resources",
+      "title": {
+        "ru": "Ресурсы проекта и связь",
+        "en": "Project resources and contact"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/resources.md",
+        "en": "docs/en/resources.md"
+      },
+      "translation_source_sha256": "eadf22eb7b15704df7b24f706b3a309a24d063282bd4cd315221d7be124e3766"
+    },
+    {
+      "id": "usage-rights",
+      "title": {
+        "ru": "Условия использования",
+        "en": "Usage terms and authorship"
+      },
+      "version": "1.0.1",
+      "components": [
+        "editorial-engine"
+      ],
+      "paths": {
+        "ru": "docs/scope-and-rights.md",
+        "en": "docs/en/scope-and-rights.md"
+      },
+      "translation_source_sha256": "79265673c81a0b566cbd71a05e6b546b5d9c7209fcab49f65685e01494fdca45"
+    },
+    {
+      "id": "documentation",
+      "title": {
+        "ru": "Как устроена документация",
+        "en": "Documentation maintenance"
+      },
+      "version": "1.0.1",
+      "components": [
+        "documentation"
+      ],
+      "paths": {
+        "ru": "docs/documentation.md",
+        "en": "docs/en/documentation.md"
+      },
+      "translation_source_sha256": "7f041fc7adcf20f1eda7e6bf9b38f14b4aaa2b7b791da8e253fd2ac71af78bb1"
+    }
+  ],
+  "files": {
+    "README.en.md": "5af87a90726dd2f5ed418601bd50448b03b61fc32ab10570e9ff71d150a11597",
+    "README.md": "51b99160fbfc8b03bfec2cdf3ca263c0d4ec109ce5d9ba4dec04e811944296ea",
+    "LICENSE": "c59d408f4177228dd88a0ac880d2d1120fd6a850b80828c699bc717add3f589a",
+    "prompts/teahouse-phone-0.3.json": "b85ca7d8f9c01865bbe79ab1ab34b28996d02fa82f510ff015c12b1a81663414",
+    "prompts/teahouse-visitors.json": "15c18484587a62db636916e534a92231a3d5a902a229d9d2592a70ec1e4aaee8",
+    "prompts/teahouse-desktop-0.23.json": "c362a11e97ca1230c37bc9bc93d43f28604e547b9ea8e56a3c1ef5bc4d2e7711",
+    "prompts/README.md": "23a89b355e60737bb9c5a947a4b265d14b43019f593941fdef45973acf3ad7b0",
+    "prompts/teahouse-objects.json": "32673e5cbb9d1331fc3cf6f546c5987ed31f2b22327447b85cbc01a2f05430cc",
+    "tools/check.py": "1b2afa7735586cbefcfa68c7b7671c05c6ef491e477992db467cd6106559b634",
+    "assets/teahouse-phone-states.jpg": "32f0a7e79518e1b1209676fc66687e3243c7e4e6d4e7bc540f13394830167f41",
+    "assets/teahouse-phone-interface.jpg": "1953e3a52c368a75edf7680fc32e97bce9239e4f29d32425a96841a75edab479",
+    "assets/teahouse-visit-dolphin.jpg": "7fd48f16fbbf0c78c72736b94cb5fa0ecb1887257e495a8e3d309649751cfde2",
+    "assets/teahouse-visit-whale.jpg": "205a7964f4fc71893af051e09ba97e53d0d1334eb7d0042106553e5f21946a86",
+    "assets/teahouse-night.jpg": "8ca239761b1ad373901cb5406beca9a44bd45875b9872b87d4abef9f2adc1430",
+    "assets/teahouse-visit-dragon.jpg": "74ed51da689bcc1c1ceacaada3def61e4550f774191629fc6ea7d0a142e1b481",
+    "assets/teahouse-day.jpg": "d53c5a5513f763e9187f02336e05335a97744f0539423569617f04b00d25a0fc",
+    "assets/teahouse-visit-turtle.jpg": "5307afc2932879e118b535684d51ece575f0286f94f67e2d99bae773204f8edd",
+    "docs/formats.md": "d7d53c522e366f8f82c9d20245099081975d58b95d4e8f307f30af872569c123",
+    "docs/laboratory.md": "44f141a488b4ae63f6df54264bfb4863496a10c7c36ba6f03ec6d9d90221c1a0",
+    "docs/media.md": "0b21c69aff1d835a1a9980a78ff1820dbe711eabd751eb584e0d10cf3ebcbf6c",
+    "docs/weather-client-contract.md": "9bb3113fc766c094299b1f54598e466f67146b40ea42fb00a2f9fafcde300544",
+    "docs/game-world.md": "e7e7d14714ce3e506f008891889f99692f0aea792654bee906581840ca430913",
+    "docs/weather-api.md": "d86fbb1f86ce4ba91e65498077ed7abcd5f4d9a4a0512fe5da27e669ea1b0c3c",
+    "docs/clients.md": "58670015cd7a876c7bb93edcd1559e198f79ba7c346d0ca1292d356636bb4419",
+    "docs/sunken-teahouse.md": "97c3b0c82af1284a0de808af95a7def4691b7360650914d5042a3ec20aff93e7",
+    "docs/journal.md": "43ed6295aa95556db2f86c0200add86a5ae6b02a6949de4a9f418958121f1ad6",
+    "docs/editorial-feedback.md": "f3105ade618a3032496b5df830c60a6098b59d45503d61591001879709961812",
+    "docs/dynamic-wallpapers.md": "3e42768af3fd593fe764f5e03258d441dffffe9d66a4fbb5a01fd91a6d6128de",
+    "docs/music-similarity.md": "33f43531ca8db4bcaaf64a15d57835ca5a2700d81a2b831a8e73f2aab59fb93e",
+    "docs/dynamic-api.md": "5652399756b43a3858dba6f35166a3a50cd3a34cf1d06661e48233e767b6b3fa",
+    "docs/theme-packages.md": "31fe5cd4795b695001cdeab37aad49687a95905650c8bd18ae76941ab2579dbe",
+    "docs/meaning-system.md": "c7d3bb39f2de2c32be02eb82067ae0e9938e48031e15abc6a3c1fbc568a98cf3",
+    "docs/authoring-prompts.md": "65121c19193de806c64ae20a142a596ef5720921ee63906a7bbceb1b9b95a6c3",
+    "docs/architecture.md": "f900d28b1d62643161d10210c30097e494ee709619d0ed9d2b571071697000bf",
+    "docs/wallpapers.md": "62fe97e76fa5fef1472a38b577fc77ab3b14980aeb27faead8493ca21a0d2f56",
+    "docs/music.md": "46474a9329e02ef41d5a81c980cb4b8d8a7eed4971138876f424548e7a59d28a",
+    "docs/sources.md": "f15c2b1c4ba4c6732988d0b828a2330cfdebe14a678b91cd78601e18aaa07f5d",
+    "docs/project.md": "39e76a1856174f9cb9a2e431de3637095b359073d9cac4ea08d98f33da60710c",
+    "docs/visual-identity.md": "966979ddc564042691624ff8e81ff0ef247dca1e95a1e59038fc09f1f613eaa9",
+    "docs/accessibility.md": "44e64c793a49b4545321f5904b239c91a1a5cc3c48f45d2598f220bcec67196a",
+    "docs/resources.md": "eadf22eb7b15704df7b24f706b3a309a24d063282bd4cd315221d7be124e3766",
+    "docs/documentation.md": "7f041fc7adcf20f1eda7e6bf9b38f14b4aaa2b7b791da8e253fd2ac71af78bb1",
+    "docs/contracts.md": "f8b7a5c40dadbbbf23598daefbd24528be42237f56025e70b98131d5f349d0a7",
+    "docs/prompt-pipeline.md": "ce7adda607cd30651092ea0fa2139c054ba63e4c244fac6ee832b5bf1fb7ca92",
+    "docs/numeric-fields.md": "0d0ba2975dca380cd6a293f0c7ab747e0be82a7330dad17f705eaa52a1f4b3d3",
+    "docs/composition.md": "3abaae3fcb6facf352fdd1b3d48dc16bd71a59a719873b730cc2d905525cbbe3",
+    "docs/music-api.md": "8a3d443541f997df3df7838e31aadec7d9381c1904c9620a4a5e8f3a43e04a28",
+    "docs/site-engines.md": "11f0a9e0c4a089bc46f501b1765be9c24facf4faa9d8b007da345862ec9a50d4",
+    "docs/catalog.md": "7de856a9555e470a448da2dcb836c9b97b7335c2f90531c75d5d7d59f798e53c",
+    "docs/scope-and-rights.md": "79265673c81a0b566cbd71a05e6b546b5d9c7209fcab49f65685e01494fdca45",
+    "examples/view_revision.py": "9fc8ea20480c673f709b85fb412d9170f8f4585d4ed1f9e129c6d278809cc6f8",
+    "examples/series_revision.py": "11c6e32dd2e8f2e29fa7fbac7f9aaf443d975e9275860fb8c6a322254339c439",
+    "examples/teahouse-artwork-sources.json": "f4bee239e3e3dc7847e0dbbf3e4df059bd98d582251ae273c571e590128c5cd8",
+    "examples/music-manifest.json": "b9e8ab2e790282276903ee0ef49a5be7fecd2d6f53a67bb903a8c41984a14430",
+    "examples/collection.json": "b6aada66bc5a974d4815f35a8e37e946e699dcfee90e7ebc2d94bfec4d87a8a4",
+    "examples/README.md": "6afee456b1002d8ac1fe2abb9eda08b0baa87dc4556f177a922ac3ea0017429f",
+    "examples/view-input.json": "df2533582c973bc0be9eccae8bb5c161caec9f0238e270b1e7be85e3c2103e8d",
+    "examples/view-output.example.json": "136e1af0b25e897d65a9b9e4d0e65782b04f37287500b0e5867b241bb4fa8fa1",
+    "examples/theme.json": "287bb521f90d9bf868afca07e8aa98baa648c27323bca6b2a3b0e544277395af",
+    "examples/inputs.json": "8b830241331221e9580490dbc99beab131c7f313849d8ac8e1047dca4d92f318",
+    "examples/test_principles.py": "71e41f5ceb7f004368b25f6a6a83ddd980e94a0766d81fac1a7e2e833ef7d1f9",
+    "prompts/05-context/03-game-in-series.md": "65dc5ff85136f86819e82efa77008269f6c9665442d746e10360e2047b344270",
+    "prompts/05-context/04-series-view.md": "8f0db7e60f8f313ab8f1abf351245f333ed58f978d9b56e7fb1dea1af2b6fa74",
+    "prompts/05-context/06-remembered.md": "e008155f44e1aaf21338fde5effdb56ad9eb448f13facab453affbc24e1978b6",
+    "prompts/05-context/05-game-history.md": "a570c7aefcd27cf80ebaa658f4d5a494abc1337b42c9157566e7a11ecf825a03",
+    "prompts/05-context/02-reference-card.md": "85843649015b5148e759c2e47889473a77f6592a1d12e3eb8d641f26cb7bdf83",
+    "prompts/05-context/01-view-synthesis.md": "77f0b79cc525a40c04c0d5d323ad5eb42a2d88350ec8fadbc2b110b161fe20d3",
+    "prompts/06-facts/02-series-title.md": "6db60eb91259fcc4c97bfffbadfbc936715fc999efe9884950c242a3af7a0207",
+    "prompts/06-facts/04-series-tagline.md": "b7feb7bc89cfe8a1315e26541e8bf163f056ce7316810d5cfd5a5678bb703361",
+    "prompts/06-facts/06-leaderboards-translation.md": "55fd932c732b46fdc8cb23cd56b7fe628129fff7c652fe27b85b1bc3ee787cd1",
+    "prompts/06-facts/01-game-title.md": "b5e60c20085674b0646eabed379f705e2e053e45565086b42a382cab96633ec4",
+    "prompts/06-facts/03-game-tagline.md": "f9ce515977e4be64cc0ffb6e3ff4a8acad4f89b528fce6569e4fc2e96d36a3bc",
+    "prompts/06-facts/05-achievements-translation.md": "1dc2c7f31b6f9c1601faa96c067ef081ba557bd3474070d32806c7652b583cce",
+    "prompts/03-planned/02-discovery.md": "422d23b0b3b903865262a39f84c439ee2a250653297757bf6a186f287677edcc",
+    "prompts/03-planned/03-visual.md": "037f2e0badbaa987c5364b8c922cf379de5363368ecaf81523948336ba5e6724",
+    "prompts/03-planned/04-poster.md": "64947ce2ab10abe9e6a642b7dbe87ea1600d80c7f29846accaf11bd1897b702f",
+    "prompts/03-planned/05-review.md": "f2e38e2cd924ddb53f25595ec64143ba6a30cd7da5eecfdd7873e94abaa6aad1",
+    "prompts/03-planned/01-editorial.md": "8fcf7ce1f5d2b70c5931e2d73ff37e779e6ce6c625d7a188a397e9f54ed887d5",
+    "prompts/01-weekly/03-visual.md": "dd6d7bdac7b3baa724a24752162c511f6aa7be9b5abc7650462fa9bc77e79471",
+    "prompts/01-weekly/02-editorial.md": "2f4f56f9876fce14f323a27f0e7696ff4305c335cd494d7bfe994efa875f41b9",
+    "prompts/01-weekly/01-selection.md": "ddd5c70246046cb7af90efce876c999c40acd612d7cc5eec483fe6e87e0b6200",
+    "prompts/01-weekly/04-poster.md": "f6dded07123e5e28b2a38d15537af50f1f0ec97192e6c519507a5be42b3a7d08",
+    "prompts/01-weekly/05-review.md": "be233d3409c4fd899efe624f301b82a1e946b92c33d683a88b29949ca6e3fad1",
+    "prompts/08-journal/02-character.md": "d88a1df1b04c28b45c14f8a41f2356c92f572c57ac43794aed4473fdb75ebc73",
+    "prompts/08-journal/01-event.md": "baf95f95a9a35dab87bcaadef4e7b12fe99cdf20771f73fec6c52ededc5890d3",
+    "prompts/07-overviews/02-planned.md": "a94d34c9cc3419da72f29bfa4e669ac0c5ca7da6105f1c4f32fa58e46e81606e",
+    "prompts/07-overviews/01-played.md": "bb26f0025d1b9b3bab062a567dca86691ee5fa9e0ded2ab9d0d56d3fbae19af1",
+    "prompts/07-overviews/06-achievements.md": "382080bdce4a01c5ab661e516587bb5df1445e3a391e8641298dcdf84ce90fbb",
+    "prompts/07-overviews/07-records.md": "45990eac56e0178f4950c0397637fef90df14e0a42ada48ea4a184c369832a59",
+    "prompts/07-overviews/03-recommendations.md": "d80c478ff654d69cf74e524202eb5a23526103488cb115fe23b1aa467bd20462",
+    "prompts/07-overviews/05-weekly.md": "5ababf6296fa76673d91e98bda0459a5d7888437e6a98b122fbd6996745d83b6",
+    "prompts/07-overviews/04-series.md": "27c03c9ec119576b5cb3710a5aa1e00f2f4eceaf1a3ad02287178756e1036cb7",
+    "prompts/02-played/02-visual.md": "30db6897361af9fae0e372e8a5f2bf7bd1c1f3276cb0c44f7d9154f0012fdf20",
+    "prompts/02-played/04-review.md": "25d646549fa08e3ce6617466d2739075ed2c3163651d30972f85aa707710cb93",
+    "prompts/02-played/03-poster.md": "28a48f44d279c4da1b9da7c631b413abd4c3685a2dfcf4d5dbd0176e13152dc5",
+    "prompts/02-played/01-editorial.md": "5ddda64881fee18be28a822986d9c5b02bcb989da103aca1a64753252f7e9e10",
+    "prompts/04-recommendations/06-review.md": "93f357d84ee7549464d0c23ceeea1beb714b9206c61127a5d51fa9b9d3dc4a20",
+    "prompts/04-recommendations/05-poster.md": "ff3f6e9693864d37147b0aaf70f21e0d59cb7fe11dbb8b8675ec15feae0667b3",
+    "prompts/04-recommendations/02-editorial.md": "931cbfffee24f1eacd64d9c3a93e67aeafd376690966f8b7c6cd86c710a0810b",
+    "prompts/04-recommendations/01-selection.md": "e1ed8fa1e2b3880bfa404333d79bd4fac4e2e96563d565b681332f6d4744cf45",
+    "prompts/04-recommendations/04-visual.md": "a42219339b3fc804af7825d85da5b5ce3b70b5101a1e23a91254262cac804a8b",
+    "prompts/04-recommendations/03-discovery.md": "d654674d11bb2b192311f1507c1ff16c8967ca787ced820c55d0a9dce405c945",
+    "assets/diagrams/semantic-system.svg": "67a9ee0be45b9eaf285f40f249d851c076def626a434e7ace9ff3a8bb8a82ec0",
+    "assets/diagrams/heuristics.svg": "815b18cb5afb9e1bcdf4da15cff5b781eb0ce799a17e3361a8fa5e3db027ffd3",
+    "assets/diagrams/weekly-event.svg": "3a59aec4b0de66b14495197e7a1d7e098be9b93daa11485ad717b573708a1e24",
+    "assets/diagrams/system-overview.svg": "5b2483c8d7f07e780070f59548ec2bcc9fc0c819528a93f90923ae87ad15c5a0",
+    "assets/diagrams/illustration.svg": "3615a95a78639784e105b4c656869372639aee96843de0a42f3e74681ee1169e",
+    "assets/diagrams/entity-engine.svg": "41a3e934e9ac13e4c8056025e7bf98d8b4785b464b2bc4baa42eee0ec3393725",
+    "assets/diagrams/editorial-context.svg": "527c9711c97e35e9f1576f6e1cfa0aa9098bf71f50f86ec4e7d68bf86b948398",
+    "assets/diagrams/site-engines.svg": "3816985bcc4b64875be8ddd27b94a5b51c955b6fcfc3a5fedc3f0df142485b22",
+    "assets/diagrams/played-event.svg": "65f84d9392fecb18bac788898997c63c79bb939c8cce2cad3825b3914ff3a812",
+    "schemas/dynamic/recipe.schema.json": "4f3fef6d4a897ad8a3d1bc844b469918aaaacfca7bc92178cc532e2747851770",
+    "schemas/dynamic/codes.json": "e4a432dba91fae459966b73774b2662671b2b5a32dfbe577dea845160878027c",
+    "schemas/dynamic/state.schema.json": "1eb96a7978d682d2a881771051a7afa2175865cc50b16095d723206011208972",
+    "schemas/dynamic/theme.schema.json": "39beb7c2b566f6dfead12f34479c7e511b66ab233da422a73bce7d3386d11a0c",
+    "schemas/dynamic/inputs.schema.json": "c5f360d6c5f7b8111426cf1989ddc1d3badd56899cc8b19ca383585bd0ed1f0d",
+    "schemas/dynamic/collection.schema.json": "8a5f927290a0d4094f73830179740adfba95cae58099e24167c512107e7d68f1",
+    "schemas/dynamic/numeric-fields.json": "8fa6a1d57ac2a2e2d6f34da60f97b5ef6960e42a100f60ebf5b0998eed44eb63",
+    "schemas/music/manifest.schema.json": "cec0853e13c5055833b9aebf45cbad3109f1ee1be9ee3bfefbe6546a42e5009a",
+    "schemas/music/app-release.schema.json": "af0241dae72a775957e91558b0cf352e3b7a1071d16327c7e802c4b5c7083bfb",
+    "schemas/music/similarity.schema.json": "5d8bf13ae1f89f9e30c9c762df42f96b27b686bd61c8e0ecd9e436127b70f99a",
+    "schemas/music/gallery.schema.json": "1bf7af22089be1102b56b2c6c9bf494435e63ff72a670ea0d24cbde2cdefa60b",
+    "schemas/dynamic/v0.2/recipe.schema.json": "67d244b00fc02a7c0d0ac426e03318e9b24b7788ba22082f48575034c5b1b668",
+    "schemas/dynamic/v0.2/codes.json": "8d8c14d0a941d94b259112b40c5ce5c67437b4c8d2f55f34b2fa67be0f0d1cd7",
+    "schemas/dynamic/v0.2/state.schema.json": "130372c15852d39503c34d717a257eb72af9864f48af090194fd6af6dd7e29ed",
+    "schemas/dynamic/v0.2/theme.schema.json": "a6f59a2099f8ffdebe1a4eb184264d04fde1f30ed6aabd47a091e681a8f73f64",
+    "schemas/dynamic/v0.2/inputs.schema.json": "03ec1f82d9f0b4c1321f50b9742dc78e3bbc46d8e867e405e8bbb66c95fba022",
+    "schemas/dynamic/v0.2/numeric-fields.json": "b753b42aa2b06b30f518820678b1bdb97efaa8ff5bff0cd1d17f7b02ba22fc35",
+    "schemas/dynamic/v0.2/life-state.schema.json": "23758ad02523444bb6a190e9c7747ab5627bb2ac64b6e3b5c6d2e42603dfdce4",
+    "schemas/dynamic/v0.2/build.schema.json": "63dd9c8dc378b9f41605a0ca24a1330d937df55cf48830f1295df02c6d54deaa",
+    "docs/en/formats.md": "05b871dc4d3fcd6f527963612e70db42818f5b98e95fa3e6b39a4994fb7e274f",
+    "docs/en/laboratory.md": "910904442cc3c49d77cee0b709fe05cb95b369c0c73422e9d8dcae6f78c85a58",
+    "docs/en/media.md": "7547223807bc845469297f98f7c9a53e9578c5373e5b6e4a3b96194ae198db67",
+    "docs/en/weather-client-contract.md": "877b2bea5a4eb3ed799b044488182a734f3c684c039dcae0f2f1b601862127fc",
+    "docs/en/game-world.md": "72dcf8277f06097f6b186b0755f040b6e217af24d7fb58414edcee892c0f4e07",
+    "docs/en/weather-api.md": "ef19352357a2023436930689dbc5e75d4fbfd86c21b1420458554bf3515cf497",
+    "docs/en/clients.md": "5951bd8ea48fd100dcf4fb8dcdc9667ef6e00ebe7c0f96c53afcf8bb2daf1fd5",
+    "docs/en/sunken-teahouse.md": "5f6e4759b117ca7513488ee74abea3d3f0aff608837bf4aa606cb1d37162b29b",
+    "docs/en/journal.md": "b53c5384006a0bf955d5ebfc1ae7778f8c4b61351104a84c39575a98346c062c",
+    "docs/en/editorial-feedback.md": "45ed39cfeeb01ed41ad50de9d7daf847b14ba79fbb1c2d18d251e7e70d683736",
+    "docs/en/dynamic-wallpapers.md": "911fa818c622c69b876eae7d215d6acc4864f13f1a1630081e61c3c86dff032c",
+    "docs/en/music-similarity.md": "717210419515ec87f44a2350fd14935dd662c5da670e10bc56e16a06e47c6214",
+    "docs/en/dynamic-api.md": "185a4d05cdbecf07614a9751ec4133b08fa408a314d1e1d0643d67e5ba69f4ea",
+    "docs/en/theme-packages.md": "83d06a32d3e232bb3f82d32443bd97624f3f97edddefa2c504e6b8ffd2f3ecb0",
+    "docs/en/meaning-system.md": "eb90e6c40f719b939ecb0d02eb8193f6dd454ba3a81352d4d773cf941e626b31",
+    "docs/en/authoring-prompts.md": "b82e1a56d329bef3982e14cc37a42203a2c12614740334be658165c90723d22b",
+    "docs/en/architecture.md": "956ba24bb1b72638acacf885af8ef448e3ef3acdb34f5b7ca97194fe3f544087",
+    "docs/en/wallpapers.md": "94061c42c8940b3612671bc55bd96b63ad97ebab89f3dd1d70c54e31c6bcb5fb",
+    "docs/en/music.md": "da835f8a42e95c586c29714a6d0a2dbb73b383e37ca997b69f3047bc16eb2aa7",
+    "docs/en/sources.md": "cb5945fb62e3d7aaa040f0b4ac8dff4c2ae93ef71265b4959d4fd187ed2839de",
+    "docs/en/project.md": "6b1231426b157aabc374f0aadcda37dc8863a5f9a565b1ef0a5b76299f0e7ae2",
+    "docs/en/visual-identity.md": "ac8fddb4b4cc27781e58ce2dced082910bb45a534136dc2f51ad6a6f6a63d236",
+    "docs/en/accessibility.md": "457c200caee9df08138ad307ddfe5d82fab95b05e4583b8c239104e7848024b9",
+    "docs/en/resources.md": "10c0e4c342e59344d8900a7135bdfd88e67cf5af4f62dfbd293a33c61d78705b",
+    "docs/en/documentation.md": "bf81efa84610ee697a700ad4a151a44e66f90d335babcd37b5816ca0bf2132be",
+    "docs/en/contracts.md": "3cbd54378a60f91e1731f3ff434a3e3e9e94fb5e6881abc98c66937dee39fa5e",
+    "docs/en/prompt-pipeline.md": "af5096fbf6ad7318f1d48348132c6d6c9a6b79c1295951cd4a1847e0629af5bb",
+    "docs/en/numeric-fields.md": "d6a4917c3fd09066f69f6bf9da61b5cfa6c85ce717aba318a5d8c4b876b0fc25",
+    "docs/en/composition.md": "7ca31fec35b8f6560dfe35e5c9d8c7748d3dca17d4de21a33168abbaa1230183",
+    "docs/en/music-api.md": "eb41df0a5836166958fd9cf7437b1bfa3a56bf0b4ed46b20974f3facd72aef34",
+    "docs/en/site-engines.md": "e351de645b5ef602a78b85714d116ec7897f7cce188823880ed3cfe75bdf935a",
+    "docs/en/catalog.md": "9421a94048ff514867e5c302856b3ed6e925a1140f2b4c11cb0ab0e39b451fc0",
+    "docs/en/scope-and-rights.md": "66d69e707a0fbc49321d782f4b0e29fd8007c9b8e0b7d8a173697e6ccc09679a"
+  },
+  "repository_url": "https://github.com/GremlinEngineering/imperial-school-arcade",
+  "origin": {
+    "url": "https://games.oopssre.ru/downloads/gremlin-catalog.zip",
+    "sha256": "4209eb586f06d2fc7f76dcdcd0d7398a24d7e1a111a16c942b642197d84daeca",
+    "chapters": 8,
+    "prompts": 41
+  },
+  "reading_groups": [
+    {
+      "id": "project",
+      "title": {
+        "ru": "Проект и чтение сайта",
+        "en": "The project and its website"
+      },
+      "description": {
+        "ru": "Что это за проект, для кого он существует и что на нём можно найти.",
+        "en": "What the project is, who it serves and what readers can find."
+      },
+      "pages": [
+        "project",
+        "catalog",
+        "journal",
+        "media"
+      ],
+      "supplements": []
+    },
+    {
+      "id": "architecture",
+      "title": {
+        "ru": "Как устроена система",
+        "en": "How the system works"
+      },
+      "description": {
+        "ru": "От общих связей компонентов к данным, смысловым задачам и правилам обновления.",
+        "en": "From component relationships to data, editorial tasks and revision policies."
+      },
+      "pages": [
+        "architecture",
+        "site-engines",
+        "meaning-system",
+        "editorial-updates",
+        "prompt-pipeline",
+        "accessibility"
+      ],
+      "supplements": []
+    },
+    {
+      "id": "projects",
+      "title": {
+        "ru": "Подпроекты и приложения",
+        "en": "Projects and applications"
+      },
+      "description": {
+        "ru": "Возможности музыки, коллекций, приложений и лаборатории.",
+        "en": "Music, collections, applications and the laboratory."
+      },
+      "pages": [
+        "music",
+        "music-similarity",
+        "wallpapers",
+        "clients",
+        "game-world",
+        "laboratory"
+      ],
+      "supplements": []
+    },
+    {
+      "id": "art",
+      "title": {
+        "ru": "Художественная часть и примеры",
+        "en": "Artwork and case studies"
+      },
+      "description": {
+        "ru": "Как устроено оформление и как общая идея воплощается в конкретной сцене.",
+        "en": "How visual identity works and how a particular scene expresses the shared idea."
+      },
+      "pages": [
+        "visual-identity",
+        "sunken-teahouse",
+        "composition"
+      ],
+      "supplements": []
+    },
+    {
+      "id": "contracts",
+      "title": {
+        "ru": "Спецификации и форматы",
+        "en": "Specifications and formats"
+      },
+      "description": {
+        "ru": "Точные поля, коды, условия и правила совместимости для авторов тем и разработчиков.",
+        "en": "Exact fields, codes, conditions and compatibility rules for authors and developers."
+      },
+      "pages": [
+        "formats",
+        "editorial-contracts",
+        "music-api",
+        "weather-api",
+        "weather-client-contract",
+        "dynamic-wallpapers",
+        "dynamic-api",
+        "numeric-fields",
+        "theme-packages"
+      ],
+      "supplements": []
+    },
+    {
+      "id": "practice",
+      "title": {
+        "ru": "Промпты и практические примеры",
+        "en": "Prompts and practical examples"
+      },
+      "description": {
+        "ru": "Исходные задания и небольшие воспроизводимые примеры после объяснения их назначения.",
+        "en": "Original tasks and small reproducible examples after their purpose has been explained."
+      },
+      "pages": [
+        "authoring-prompts"
+      ],
+      "supplements": [
+        "prompts",
+        "examples"
+      ]
+    },
+    {
+      "id": "reference",
+      "title": {
+        "ru": "Источники и сопровождение",
+        "en": "Sources and maintenance"
+      },
+      "description": {
+        "ru": "Происхождение материалов, проекты, условия использования и поддержка документации.",
+        "en": "Provenance, project links, usage terms and documentation maintenance."
+      },
+      "pages": [
+        "sources",
+        "resources",
+        "usage-rights",
+        "documentation"
+      ],
+      "supplements": [
+        "license"
+      ]
+    }
+  ]
+}

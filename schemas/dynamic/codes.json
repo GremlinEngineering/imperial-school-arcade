@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "codes": {
+    "season": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "time": [
+      "dawn",
+      "day",
+      "dusk",
+      "night"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "fog",
+      "rain",
+      "snow",
+      "thunderstorm"
+    ],
+    "moon": [
+      "new_moon",
+      "waxing_crescent",
+      "first_quarter",
+      "waxing_gibbous",
+      "full_moon",
+      "waning_gibbous",
+      "last_quarter",
+      "waning_crescent"
+    ],
+    "game": [
+      "neutral",
+      "playing",
+      "achievement",
+      "rare_achievement",
+      "beaten",
+      "completed",
+      "mastered",
+      "rank_drop",
+      "record",
+      "new_game",
+      "new_recommendation",
+      "new_backlog"
+    ]
+  },
+  "notation": "Итоговый код = имя группы + точка + элемент.",
+  "weather_mapping": "Шесть художественных групп. Подробный код сохраняется в weather.weather_code; адаптер выбранного источника выполняет явное сопоставление.",
+  "game_source": "Семантика существующего gremlin_profile_state. new_game не гарантирует первый запуск; record означает личный результат."
+}

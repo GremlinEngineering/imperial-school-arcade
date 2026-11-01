@@ -1,0 +1,553 @@
+{
+  "schema_version": "0.2",
+  "description": "Нормализованные поля новой темы. Это ограничения контракта, не климатические рекорды и не обещание поставщика о максимуме каждого поля.",
+  "missing_value": null,
+  "fields": {
+    "weather.temperature_2m": {
+      "title": "Температура воздуха",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.apparent_temperature": {
+      "title": "Ощущаемая температура",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.dew_point_2m": {
+      "title": "Точка росы",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.wet_bulb_temperature_2m": {
+      "title": "Температура влажного термометра",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.soil_temperature_0cm": {
+      "title": "Температура поверхности грунта",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.relative_humidity_2m": {
+      "title": "Относительная влажность",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.cloud_cover": {
+      "title": "Общая облачность",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.cloud_cover_low": {
+      "title": "Нижняя облачность",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.cloud_cover_mid": {
+      "title": "Средняя облачность",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.cloud_cover_high": {
+      "title": "Верхняя облачность",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.precipitation_probability": {
+      "title": "Вероятность осадков",
+      "unit": "%",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.pressure_msl": {
+      "title": "Давление на уровне моря",
+      "unit": "hPa",
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.surface_pressure": {
+      "title": "Давление у поверхности",
+      "unit": "hPa",
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.visibility": {
+      "title": "Видимость",
+      "unit": "м",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.wind_speed_10m": {
+      "title": "Скорость ветра на 10 м",
+      "unit": "м/с",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.wind_gusts_10m": {
+      "title": "Порывы ветра на 10 м",
+      "unit": "м/с",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.snow_depth": {
+      "title": "Глубина снега",
+      "unit": "м",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.shortwave_radiation": {
+      "title": "Коротковолновое излучение",
+      "unit": "Вт/м²",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.direct_radiation": {
+      "title": "Прямое излучение",
+      "unit": "Вт/м²",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.diffuse_radiation": {
+      "title": "Рассеянное излучение",
+      "unit": "Вт/м²",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.uv_index": {
+      "title": "УФ индекс",
+      "unit": "индекс",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.cape": {
+      "title": "Конвективная энергия CAPE",
+      "unit": "Дж/кг",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.wind_direction_10m": {
+      "title": "Направление ветра",
+      "unit": "°",
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 360,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "normalization": "angle_modulo_360"
+    },
+    "weather.precipitation": {
+      "title": "Все осадки за предшествующий час",
+      "unit": "мм",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "period_seconds": 3600
+    },
+    "weather.rain": {
+      "title": "Дождь за предшествующий час",
+      "unit": "мм",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "period_seconds": 3600
+    },
+    "weather.showers": {
+      "title": "Ливневые осадки за предшествующий час",
+      "unit": "мм",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "period_seconds": 3600
+    },
+    "weather.snowfall": {
+      "title": "Снегопад за предшествующий час",
+      "unit": "см",
+      "type": "number",
+      "minimum": 0,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "period_seconds": 3600
+    },
+    "weather.sunshine_duration": {
+      "title": "Солнечное сияние за предшествующий час",
+      "unit": "с",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 3600,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "period_seconds": 3600
+    },
+    "weather.freezing_level_height": {
+      "title": "Отметка нулевой температуры над уровнем моря",
+      "unit": "м",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.soil_moisture_0_to_1cm": {
+      "title": "Объёмная влажность грунта",
+      "unit": "м³/м³",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "weather.is_day": {
+      "title": "Признак дня поставщика",
+      "unit": "0/1",
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ],
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "weather.weather_code": {
+      "title": "Исходный погодный код",
+      "unit": "код",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 99,
+      "operators": [
+        "=",
+        "!="
+      ],
+      "kind": "categorical",
+      "note": "Интервал зарезервирован для кодов, а не является перечнем всех кодов поставщика. Смысл задаёт таблица кодов источника."
+    },
+    "sun.azimuth": {
+      "title": "Азимут Солнца",
+      "unit": "°",
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMaximum": 360,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "normalization": "angle_modulo_360"
+    },
+    "sun.elevation": {
+      "title": "Высота Солнца",
+      "unit": "°",
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "sun.daylight_duration": {
+      "title": "Продолжительность светового дня",
+      "unit": "с",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 86400,
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ]
+    },
+    "derived.pressure_change_3h": {
+      "title": "Изменение давления за 3 часа",
+      "unit": "hPa",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "requires_history_seconds": 10800
+    },
+    "derived.temperature_change_3h": {
+      "title": "Изменение температуры за 3 часа",
+      "unit": "°C",
+      "type": "number",
+      "operators": [
+        ">",
+        "<",
+        "=",
+        ">=",
+        "<=",
+        "!="
+      ],
+      "requires_history_seconds": 10800
+    },
+    "derived.life_slot": {
+      "title": "Разрешённая бытовая сцена текущего местного часа",
+      "unit": "час",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 23,
+      "operators": [
+        "=",
+        "!=",
+        "<",
+        "<=",
+        ">",
+        ">="
+      ],
+      "missing_value": null,
+      "producer": "Детерминированный серверный алгоритм life-clock-v1; поле не является внешним измерением."
+    }
+  }
+}

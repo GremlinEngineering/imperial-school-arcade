@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 700" role="img" aria-labelledby="title desc"><title id="title">Эвристики Аркадного зала</title><desc id="desc">Общие наблюдения и подтверждённые идентичности обрабатываются независимыми правилами отбора, аналитики, событий и обновления материалов. Их результаты поступают в контекст задач и публикацию.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="760" height="700" rx="18" fill="#fbfbf7"/>
+<rect x="135" y="25" width="490" height="90" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="380.0" y="53" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Подтверждённые данные</text>
+<text x="380.0" y="86.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Профиль, версии и прошлые состояния</text>
+<rect x="25" y="180" width="330" height="130" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="190.0" y="208" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243a2e">Отбор и ограничения</text>
+<text x="190.0" y="237.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Три направления рекомендаций</text>
+<text x="190.0" y="261.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Исключения, слоты, ротация</text>
+<text x="190.0" y="285.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Подборки тем и признание</text>
+<path d="M380 115V145H190V180" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="405" y="180" width="330" height="130" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="570.0" y="208" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243a2e">Наблюдения об опыте</text>
+<text x="570.0" y="249.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Время, жанры и точные механики</text>
+<text x="570.0" y="273.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Портрет, черты и подтверждения</text>
+<path d="M380 115V145H570V180" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="25" y="370" width="330" height="130" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="190.0" y="398" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243a2e">События и состояние</text>
+<text x="190.0" y="439.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Разницы наблюдений и полнота</text>
+<text x="190.0" y="463.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Журнал, рекорды и состояние</text>
+<rect x="405" y="370" width="330" height="130" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="570.0" y="398" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243a2e">Основание текста</text>
+<text x="570.0" y="439.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Состав и роль участников</text>
+<text x="570.0" y="463.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#243a2e">Исходные тексты и окно проверки</text>
+<path d="M12 145V350H190" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M190 350V370" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M748 145V350H570" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M570 350V370" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M380 145H748" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M12 145H380" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M190 500V545H380" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M570 500V545H380" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M355 245H380V545" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M405 245H380" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<rect x="135" y="590" width="490" height="85" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="380.0" y="618" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Подготовленные основания</text>
+<text x="380.0" y="649.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Контекст моделей и вычисляемые блоки сайта</text>
+<path d="M380 545V590" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+</svg>

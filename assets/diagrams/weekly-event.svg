@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1120" role="img" aria-labelledby="title desc"><title id="title">Игра недели: от редакционного контекста до каталога</title><desc id="desc">Фразы месяца и недели и посты дают контекст выбора игры. Сохраняются описание и готовый выпуск. После срока публикации плановый цикл проверяет серии, колонки, журнал и состояние автомата. Совпадение с личной версией даёт отдельный синтез двух взглядов.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="1040" height="1120" rx="18" fill="#fbfbf7"/>
+<rect x="150" y="24" width="740" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="520.0" y="54" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Контекст календарного выпуска</text>
+<text x="520.0" y="89" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Фразы месяца и недели, посты, ограничения отбора</text>
+<rect x="150" y="170" width="740" height="100" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="520.0" y="200" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Выбрана игра и смысловая связь</text>
+<text x="520.0" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Проверены версия, ограничения и исключения повторов</text>
+<rect x="150" y="316" width="740" height="100" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="520.0" y="346" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Подготовлен недельный «Взгляд»</text>
+<text x="520.0" y="381" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Смысловая связь и игра; затем проверка длины подписи</text>
+<path d="M520 124V170" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M520 270V316" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="150" y="462" width="740" height="100" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="520.0" y="492" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Выпуск сохранён: MD и готовые медиа</text>
+<text x="520.0" y="527" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Повторный запуск использует завершённый выпуск</text>
+<path d="M520 416V462" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="520" y="602" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#243a2e">Срок публикации и плановый цикл берутся из конфигурации</text>
+<rect x="20" y="652" width="480" height="164" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="260.0" y="682" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Новый выпуск в каталоге</text>
+<text x="260.0" y="717" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Подтверждённые серии и их игры;</text>
+<text x="260.0" y="746" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">колонки разделов и журнал;</text>
+<text x="260.0" y="775" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">дневное состояние автомата</text>
+<rect x="540" y="652" width="480" height="164" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="780.0" y="682" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Есть личная карточка версии?</text>
+<text x="780.0" y="717" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Совпали RA ID и платформа —</text>
+<text x="780.0" y="746" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">проверяется синтез двух «Взглядов»;</text>
+<text x="780.0" y="775" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">иначе остаётся недельный текст</text>
+<path d="M520 562V580" fill="none" stroke="#52665d" stroke-width="1.8"/>
+<path d="M520 620V625H260V652" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M520 625H780V652" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="150" y="914" width="740" height="136" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="520.0" y="944" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Общий выпуск сайта</text>
+<text x="520.0" y="979" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Готовые карточки, страницы серий и обзоры;</text>
+<text x="520.0" y="1008" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">перелинковка и JSON-LD, превью и карта журнала;</text>
+<text x="520.0" y="1037" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">проверка разметки перед фиксацией состояний</text>
+<path d="M260 816V870H520V914" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M780 816V870H520" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+</svg>

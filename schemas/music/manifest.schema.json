@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:imperial-school:music-manifest:1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "game": {
+      "type": "object"
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "subsong": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "format": {
+            "type": "string"
+          },
+          "play_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fade_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duration_known": {
+            "type": "boolean"
+          },
+          "asset": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "format": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "url",
+              "sha256",
+              "bytes"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "asset"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "game",
+    "tracks"
+  ],
+  "additionalProperties": true
+}

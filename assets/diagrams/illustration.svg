@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 1080" role="img" aria-labelledby="title desc">
+<title id="title">Цепочка текста и изображения</title><desc id="desc">Факты используются для редакционного текста и постановки сцены. По сценарию создаётся изображение, затем отдельная задача проверяет его. Принятый результат сохраняется; при замечаниях возможна новая попытка, а при исчерпании лимита изображение пропускается.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#20372d}.label{font-size:15px;paint-order:stroke;stroke:#fffdf7;stroke-width:6;stroke-linejoin:round}.node{fill:#fffdf7;stroke:#789083;stroke-width:1.5}.accent{fill:#e1eee6;stroke:#2d6951;stroke-width:1.7}</style>
+<rect width="560" height="1080" rx="18" fill="#f6f6ef"/>
+<rect class="node" x="100" y="25" width="360" height="80" rx="12"/>
+<text x="280.0" y="53.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Подтверждённая версия</text>
+<text x="280.0" y="77.0" text-anchor="middle" dominant-baseline="middle" font-size="18">игры и факты</text>
+<rect class="node" x="100" y="150" width="360" height="80" rx="12"/>
+<text x="280.0" y="190.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Редакционный текст</text>
+<rect class="accent" x="100" y="275" width="360" height="80" rx="12"/>
+<text x="280.0" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Визуальный сценарий</text>
+<rect class="node" x="100" y="400" width="360" height="80" rx="12"/>
+<text x="280.0" y="440.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Кандидат изображения</text>
+<rect class="accent" x="100" y="525" width="360" height="80" rx="12"/>
+<text x="280.0" y="553.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Проверка изображения</text>
+<text x="280.0" y="577.0" text-anchor="middle" dominant-baseline="middle" font-size="18">по отдельному заданию</text>
+<path d="M280 105V150" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M280 230V275" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M280 355V400" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M280 480V525" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M460 65H510V315H460" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path class="accent" d="M280 650.0L455.0 715L280 780.0L105.0 715Z"/>
+<text x="280" y="715" text-anchor="middle" dominant-baseline="middle" font-size="17">Результат принят?</text>
+<path d="M280 605V650" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect class="accent" x="20" y="870" width="245" height="90" rx="12"/>
+<text x="142.5" y="903.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Сохранить</text>
+<text x="142.5" y="927.0" text-anchor="middle" dominant-baseline="middle" font-size="18">иллюстрацию</text>
+<rect class="node" x="295" y="965" width="245" height="90" rx="12"/>
+<text x="417.5" y="998.0" text-anchor="middle" dominant-baseline="middle" font-size="18">Лимит исчерпан:</text>
+<text x="417.5" y="1022.0" text-anchor="middle" dominant-baseline="middle" font-size="18">зафиксировать пропуск</text>
+<path d="M165 737V830H142V870" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text class="label" x="142" y="820" text-anchor="middle">Да</text>
+<path d="M395 737H540V440H460" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text class="label" transform="translate(530 654) rotate(-90)" text-anchor="middle">Нет, попытки остаются</text>
+<path d="M280 780V920H418V965" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text class="label" x="306" y="826" text-anchor="start"><tspan x="306">Нет, попытки</tspan><tspan x="306" dy="20">закончились</tspan></text>
+</svg>

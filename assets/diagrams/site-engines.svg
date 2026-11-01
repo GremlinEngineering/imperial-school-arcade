@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1050" role="img" aria-labelledby="title desc"><title id="title">Движки и контуры Аркадного зала</title><desc id="desc">Данные и авторские материалы проходят проверку идентичности; смысловые, медийные и событийные контуры готовят материалы, которые темы и каталог связывают при статической публикации.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="1500" height="1050" rx="18" fill="#fbfbf7"/>
+<rect x="40" y="30" width="440" height="130" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="260.0" y="62" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Личные наблюдения</text>
+<text x="260.0" y="100" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Профиль, достижения, активность</text>
+<text x="260.0" y="129" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#243a2e">Результаты и подтверждённые даты</text>
+<rect x="530" y="30" width="440" height="130" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="750.0" y="62" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Внешние сведения</text>
+<text x="750.0" y="100" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Игры, версии и серии</text>
+<text x="750.0" y="129" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Изображения и музыка</text>
+<rect x="1020" y="30" width="440" height="130" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="1240.0" y="62" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Авторские материалы</text>
+<text x="1240.0" y="100" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">MD, списки и правила</text>
+<text x="1240.0" y="129" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Промпты, темы и реконструкции</text>
+<rect x="360" y="225" width="780" height="105" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="750.0" y="257" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Проверка идентичности и сохранённые основания</text>
+<text x="750.0" y="295" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#243a2e">Произведение, платформенная версия, роль карточки и источник</text>
+<path d="M260 160V195H750V225" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 160V225" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M1240 160V195H750" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="40" y="400" width="440" height="165" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="260.0" y="432" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Смысловые материалы</text>
+<text x="260.0" y="470" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Отборы и расчётные черты</text>
+<text x="260.0" y="499" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Редакционные вопросы модели</text>
+<text x="260.0" y="528" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Сохранённые тексты и основания</text>
+<rect x="530" y="400" width="440" height="165" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="750.0" y="432" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#243a2e">Медиа и музыкальный движок</text>
+<text x="750.0" y="470" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Постеры, обложки и история</text>
+<text x="750.0" y="499" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Наборы, очередь и метаданные</text>
+<text x="750.0" y="528" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Worker, WebAssembly и плеер</text>
+<rect x="1020" y="400" width="440" height="165" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="1240.0" y="432" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Наблюдение и связи</text>
+<text x="1240.0" y="470" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Профиль, журнал и календарь</text>
+<text x="1240.0" y="499" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Реестр и разрешение сущностей</text>
+<text x="1240.0" y="528" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Семантические теги и отношения</text>
+<path d="M750 330V365H260V400" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 330V400" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 365H1240V400" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="90" y="650" width="610" height="140" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="395.0" y="682" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Темы и представление</text>
+<text x="395.0" y="720" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Пакеты, календарь и подборки игр</text>
+<text x="395.0" y="749" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Собственные OG-постеры и день/ночь</text>
+<rect x="800" y="650" width="610" height="140" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="1105.0" y="682" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Каталог и лаборатория</text>
+<text x="1105.0" y="720" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Карточки, серии, поиск и карта связей</text>
+<text x="1105.0" y="749" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Реконструкции с собственными ID</text>
+<path d="M260 565V605H395V650" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 565V605H395" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 605H1105V650" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M1240 565V605H1105" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="360" y="875" width="780" height="125" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="750.0" y="907" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#243a2e">Статическая публикация</text>
+<text x="750.0" y="945" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Страницы, музыка, ленты, JSON-LD, PDF и ZIP</text>
+<text x="750.0" y="974" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#243a2e">Проверка ссылок, контрольные суммы и сохранение результатов</text>
+<path d="M395 790V835H750V875" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M1105 790V835H750" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+</svg>

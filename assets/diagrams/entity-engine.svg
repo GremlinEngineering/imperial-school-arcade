@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1000" role="img" aria-labelledby="title desc"><title id="title">Движок сущностей</title><desc id="desc">Публикуемые объекты дают реестр имён. Локальная сегментация, леммы и синтаксис разрешают упоминания. Неоднозначные места сохраняют исходный текст. Реестр также используется в структурированных метаданных.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="620" height="1000" rx="18" fill="#fbfbf7"/>
+<rect x="75" y="20" width="470" height="95" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="310.0" y="48" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Общий реестр</text>
+<text x="310.0" y="72.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Игры, серии, платформы, компании</text>
+<text x="310.0" y="96.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Явно названные автор и персонажи</text>
+<rect x="75" y="155" width="470" height="95" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="310.0" y="183" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Имена и области</text>
+<text x="310.0" y="207.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Основные названия и алиасы</text>
+<text x="310.0" y="231.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Роли, платформы и доступные переходы</text>
+<rect x="75" y="290" width="470" height="95" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="310.0" y="318" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Локальный NLP</text>
+<text x="310.0" y="342.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Natasha: токены и синтаксис</text>
+<text x="310.0" y="366.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">pymorphy3: морфология и леммы</text>
+<rect x="75" y="425" width="470" height="95" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="310.0" y="453" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Разрешение упоминания</text>
+<text x="310.0" y="477.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Наиболее длинное совпадение</text>
+<text x="310.0" y="501.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Тип, контекст, роль и неоднозначность</text>
+<path d="M310 115V155" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M310 250V290" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M310 385V425" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="20" y="590" width="275" height="105" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="157.5" y="618" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#243a2e">Основание достаточно</text>
+<text x="157.5" y="647.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#243a2e">Связь с зарегистрированным</text>
+<text x="157.5" y="671.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#243a2e">объектом или вариантами</text>
+<rect x="325" y="590" width="275" height="105" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="462.5" y="618" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#243a2e">Основание недостаточно</text>
+<text x="462.5" y="647.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#243a2e">Исходный текст</text>
+<text x="462.5" y="671.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#243a2e">сохраняется</text>
+<path d="M310 520V552H157V590" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M310 552H462V590" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M157 695V730H310" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M462 695V730H310" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<rect x="75" y="775" width="470" height="95" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="310.0" y="803" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Опубликованная семантика</text>
+<text x="310.0" y="827.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Переходы и типизированные упоминания</text>
+<text x="310.0" y="851.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">JSON-LD и общие идентичности</text>
+<path d="M310 730V775" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="75" y="910" width="470" height="65" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="310.0" y="942.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Граф опубликованных связей</text>
+<path d="M310 870V910" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+</svg>

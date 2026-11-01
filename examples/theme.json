@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.2",
+  "id": "sample-teahouse",
+  "title": "Пример · Sample",
+  "devices": {
+    "desktop_3456x2234": {
+      "width": 3456,
+      "height": 2234,
+      "asset_root": "devices/desktop_3456x2234",
+      "description": "Самостоятельная композиция устройства · Independent device composition",
+      "assets": {
+        "background": {
+          "file": "background.jpg",
+          "role": "background",
+          "description": "Фон · Background"
+        },
+        "shell_low": {
+          "file": "shell-low.png",
+          "role": "overlay",
+          "description": "Вариант при низком давлении · Low-pressure variant"
+        }
+      },
+      "rules": [
+        {
+          "id": "base",
+          "description": "Фон всегда · Always include background",
+          "when": true,
+          "layers": [
+            {
+              "id": "background",
+              "asset": "background",
+              "order": 0
+            }
+          ]
+        },
+        {
+          "id": "pressure",
+          "description": "Давление ниже порога · Pressure below threshold",
+          "when": {
+            "field": "weather.pressure_msl",
+            "op": "<",
+            "value": 1005
+          },
+          "layers": [
+            {
+              "id": "barometer",
+              "asset": "shell_low",
+              "order": 100,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

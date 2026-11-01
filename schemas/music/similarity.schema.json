@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:imperial-school:music-similarity:1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "analyzer_version": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "distance": {
+      "type": "string"
+    },
+    "retrieval": {
+      "type": "string"
+    },
+    "tracks": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}:[0-9]+$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "game_id": {
+                  "type": "string"
+                },
+                "track_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "index": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "game_id",
+                "index"
+              ],
+              "additionalProperties": true
+            }
+          },
+          "bpm": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "rhythm_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "partial": {
+            "type": "boolean"
+          },
+          "neighbors": {
+            "type": "object",
+            "properties": {
+              "rhythm": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}:[0-9]+$"
+                    },
+                    "distance": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "key",
+                    "distance"
+                  ],
+                  "additionalProperties": true
+                }
+              },
+              "sound": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}:[0-9]+$"
+                    },
+                    "distance": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "key",
+                    "distance"
+                  ],
+                  "additionalProperties": true
+                }
+              }
+            },
+            "required": [
+              "rhythm",
+              "sound"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "refs",
+          "bpm",
+          "rhythm_confidence",
+          "partial",
+          "neighbors"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "tracks"
+  ],
+  "additionalProperties": true
+}

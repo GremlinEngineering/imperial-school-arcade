@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1200" role="img" aria-labelledby="title desc"><title id="title">Полная карта смыслового движка</title><desc id="desc">Источники и подтверждённые версии питают эвристики, отслеживание изменений и подготовку контекста. Далее работают семейства смысловых генераторов. Результаты сохраняются, проходят движок сущностей и публикуются вместе с индексами и картой журнала.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="1500" height="1200" rx="18" fill="#fbfbf7"/>
+<text x="750" y="27" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#243a2e">Смысловой движок Аркадного зала</text>
+<rect x="35" y="65" width="340" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="205.0" y="93" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Контекст недели</text>
+<text x="205.0" y="119.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Фразы месяца и недели</text>
+<text x="205.0" y="143.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Публикации канала</text>
+<rect x="398" y="65" width="340" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="568.0" y="93" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Игровые наблюдения</text>
+<text x="568.0" y="119.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">RA: профиль, достижения, время</text>
+<text x="568.0" y="143.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Результаты и награды</text>
+<rect x="761" y="65" width="340" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="931.0" y="93" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Справочные источники</text>
+<text x="931.0" y="119.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">MobyGames, LaunchBox</text>
+<text x="931.0" y="143.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Версии, серии и справочники</text>
+<rect x="1124" y="65" width="340" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="1294.0" y="93" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Авторские материалы</text>
+<text x="1294.0" y="119.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Заметки, признание</text>
+<text x="1294.0" y="143.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Пионеры и лаборатория</text>
+<path d="M205 190H1294" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M205 165V190" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M568 165V190" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M931 165V190" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M1294 165V190" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M750 190V215" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="375" y="215" width="750" height="88" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="750.0" y="243" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Подтверждённые версии и связи</text>
+<text x="750.0" y="275.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Идентификаторы, платформы, роли карточек, состав серий</text>
+<path d="M750 303V323H255V345" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 303V323H750V345" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M750 303V323H1245V345" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="35" y="345" width="440" height="110" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="255.0" y="373" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Эвристики и допуски</text>
+<text x="255.0" y="392.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Отбор игр, ограничения, ротация</text>
+<text x="255.0" y="416.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Портрет, черты и подборки тем</text>
+<text x="255.0" y="440.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Признание: произведение / версия</text>
+<rect x="530" y="345" width="440" height="110" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="750.0" y="373" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Изменения и события</text>
+<text x="750.0" y="404.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Полнота наблюдения, состояния</text>
+<text x="750.0" y="428.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Значимые основания обновления</text>
+<rect x="1025" y="345" width="440" height="110" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="1245.0" y="373" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Контекст заданий</text>
+<text x="1245.0" y="404.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Факты, готовые блоки и источники</text>
+<text x="1245.0" y="428.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Задание, адаптер модели и схема ответа</text>
+<path d="M205 492H1294" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M255 455V475H750V492" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M750 455V475H750V492" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M1245 455V475H750V492" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<rect x="35" y="525" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="205.0" y="553" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Игры недели</text>
+<text x="205.0" y="597.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Выбор по контексту канала</text>
+<text x="205.0" y="621.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Редакционный текст</text>
+<text x="205.0" y="645.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Сокращение и правка</text>
+<path d="M205 492V525" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="398" y="525" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="568.0" y="553" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Карточки игр</text>
+<text x="568.0" y="597.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Личный взгляд и опоры</text>
+<text x="568.0" y="621.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Планы и рекомендации</text>
+<text x="568.0" y="645.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Причина, действия, девиз афиши</text>
+<path d="M568 492V525" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="761" y="525" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="931.0" y="553" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">История и серии</text>
+<text x="931.0" y="597.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Справочная карточка</text>
+<text x="931.0" y="621.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">История, место в серии</text>
+<text x="931.0" y="645.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">«Взгляд» и «За что её помнят»</text>
+<path d="M931 492V525" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="1124" y="525" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="1294.0" y="553" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Названия и фразы</text>
+<text x="1294.0" y="597.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Названия игр и серий</text>
+<text x="1294.0" y="621.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Переводы достижений и таблиц</text>
+<text x="1294.0" y="645.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Фразы игр и девизы серий</text>
+<path d="M1294 492V525" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="35" y="735" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="205.0" y="763" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Синтез взглядов</text>
+<text x="205.0" y="807.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Недельный и личный тексты</text>
+<text x="205.0" y="831.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">одной платформенной версии</text>
+<text x="205.0" y="855.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Самостоятельный общий взгляд</text>
+<path d="M205 710V735" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="398" y="735" width="340" height="160" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="568.0" y="763" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Подбор рекомендаций</text>
+<text x="568.0" y="807.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Общий и серийный: правила</text>
+<text x="568.0" y="831.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Персональный: модель</text>
+<text x="568.0" y="855.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Общие исключения и история</text>
+<path d="M568 710V735" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="761" y="735" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="931.0" y="763" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Колонки разделов</text>
+<text x="931.0" y="807.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Личные игры, недели, планы</text>
+<text x="931.0" y="831.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Рекомендации и серии</text>
+<text x="931.0" y="855.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Достижения и рекорды</text>
+<path d="M931 710V735" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="1124" y="735" width="340" height="160" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="1294.0" y="763" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Журнал и характеристика</text>
+<text x="1294.0" y="807.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">События → короткая подводка</text>
+<text x="1294.0" y="831.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Расчётные черты → литредакция</text>
+<text x="1294.0" y="855.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Факты и расчёт сохраняются</text>
+<path d="M1294 710V735" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M18 492V710H1294" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M205 925H1476" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M375 605H387V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M205 895V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M738 605H750V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M568 895V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M1101 605H1113V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M931 895V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M1464 605H1476V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M1294 895V925" fill="none" stroke="#52665d" stroke-width="1.5"/>
+<path d="M750 925V950" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="250" y="950" width="1000" height="82" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="750.0" y="978" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#243a2e">Проверка и сохранение результатов</text>
+<text x="750.0" y="1007.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#243a2e">Тексты, факты, источники, роли и основания; принятые материалы читаются повторно</text>
+<path d="M750 1032V1050H255V1070" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="35" y="1070" width="440" height="94" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="255.0" y="1098" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Движок сущностей</text>
+<text x="255.0" y="1121.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Реестр, имена, морфология</text>
+<text x="255.0" y="1145.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Контекст и разрешение упоминаний</text>
+<rect x="530" y="1070" width="440" height="94" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="750.0" y="1098" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Страницы и семантика</text>
+<text x="750.0" y="1121.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Карточки, связи, текст</text>
+<text x="750.0" y="1145.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Типизированные упоминания, JSON-LD</text>
+<rect x="1025" y="1070" width="440" height="94" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="1245.0" y="1098" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#243a2e">Индексы и карта журнала</text>
+<text x="1245.0" y="1121.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">Поиск, фильтры и граф</text>
+<text x="1245.0" y="1145.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#243a2e">По опубликованным объектам и связям</text>
+<path d="M475 1117H530" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M970 1117H1025" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="750" y="1184" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#243a2e">Серый: источники · Песочный: правила · Голубой: задачи модели · Зелёный: сохранение и публикация</text>
+</svg>

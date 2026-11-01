@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:imperial-school:music-app-release:1",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon_url": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "build": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "apk": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "url",
+        "bytes",
+        "sha256"
+      ],
+      "additionalProperties": true
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "min_android": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "version",
+    "build",
+    "apk",
+    "source_url"
+  ],
+  "additionalProperties": true
+}

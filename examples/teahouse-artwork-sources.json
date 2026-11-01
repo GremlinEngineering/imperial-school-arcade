@@ -1,0 +1,37 @@
+{
+  "purpose": "Artwork editions used by public documentation; not a deployable wallpaper bundle",
+  "desktop": {
+    "archive": "Sunken_Teahouse_Production_0.23.zip",
+    "sha256": "9627785a0e0038185fc2c12760995ea0c6b5c1f8583b69d998a3073ce01aee93",
+    "edition": "0.23",
+    "stage": "prepared desktop dynamic theme",
+    "device": "desktop_3456x2234",
+    "canvas": [
+      3456,
+      2234
+    ],
+    "images": 203,
+    "channels": 71,
+    "rules": 320
+  },
+  "phone": {
+    "archive": "Sunken_Teahouse_Phone_Composition_0.3.zip",
+    "sha256": "efea63922cf988c41572a2df4f3ac9532a6803e7f3be8088e16ba46913190c28",
+    "edition": "0.3",
+    "stage": "complete concept studies and production plan; device layers and installable theme not yet exported",
+    "planned_device": "phone_1440x3120",
+    "planned_canvas": [
+      1440,
+      3120
+    ],
+    "study_dimensions": [
+      853,
+      1844
+    ],
+    "studies": 3,
+    "visitors": [
+      "turtle",
+      "dragon"
+    ]
+  }
+}

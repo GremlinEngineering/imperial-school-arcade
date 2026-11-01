@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.2",
+  "device": "desktop_3456x2234",
+  "at": "2026-11-01T12:00:00+03:00",
+  "active": [
+    "season.autumn",
+    "time.day",
+    "weather.rain",
+    "moon.full_moon",
+    "game.neutral"
+  ],
+  "weather": {
+    "temperature_2m": 4.5,
+    "pressure_msl": 1002,
+    "visibility": 8000
+  },
+  "sun": {
+    "azimuth": 180,
+    "elevation": 19
+  },
+  "derived": {
+    "life_slot": null
+  }
+}

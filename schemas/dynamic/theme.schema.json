@@ -1,0 +1,1236 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "devices": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_-]*$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "asset_root": {
+            "type": "string",
+            "pattern": "^devices/[a-z][a-z0-9_-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assets": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]*$"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_./-]*\\.(png|jpg|jpeg)$"
+                },
+                "role": {
+                  "enum": [
+                    "background",
+                    "overlay"
+                  ]
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "file",
+                "role",
+                "description"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "rules": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_-]*$"
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "when": {
+                  "$ref": "#/$defs/condition"
+                },
+                "layers": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_-]*$"
+                      },
+                      "asset": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_-]*$"
+                      },
+                      "order": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "opacity": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "asset",
+                      "order"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "description",
+                "when",
+                "layers"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "width",
+          "height",
+          "asset_root",
+          "description",
+          "assets",
+          "rules"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "devices"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:imperial-school:dynamic-wallpaper-theme:0.1",
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "code": {
+              "enum": [
+                "season.spring",
+                "season.summer",
+                "season.autumn",
+                "season.winter",
+                "time.dawn",
+                "time.day",
+                "time.dusk",
+                "time.night",
+                "weather.clear",
+                "weather.cloudy",
+                "weather.fog",
+                "weather.rain",
+                "weather.snow",
+                "weather.thunderstorm",
+                "moon.new_moon",
+                "moon.waxing_crescent",
+                "moon.first_quarter",
+                "moon.waxing_gibbous",
+                "moon.full_moon",
+                "moon.waning_gibbous",
+                "moon.last_quarter",
+                "moon.waning_crescent",
+                "game.neutral",
+                "game.playing",
+                "game.achievement",
+                "game.rare_achievement",
+                "game.beaten",
+                "game.completed",
+                "game.mastered",
+                "game.rank_drop",
+                "game.record",
+                "game.new_game",
+                "game.new_recommendation",
+                "game.new_backlog"
+              ]
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.temperature_2m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.apparent_temperature"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.dew_point_2m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.wet_bulb_temperature_2m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.soil_temperature_0cm"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.relative_humidity_2m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.cloud_cover"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.cloud_cover_low"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.cloud_cover_mid"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.cloud_cover_high"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.precipitation_probability"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.pressure_msl"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.surface_pressure"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.visibility"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.wind_speed_10m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.wind_gusts_10m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.snow_depth"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.shortwave_radiation"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.direct_radiation"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.diffuse_radiation"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.uv_index"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.cape"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.wind_direction_10m"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.precipitation"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.rain"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.showers"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.snowfall"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.sunshine_duration"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.freezing_level_height"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.soil_moisture_0_to_1cm"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.is_day"
+                },
+                "op": {
+                  "enum": [
+                    "=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "weather.weather_code"
+                },
+                "op": {
+                  "enum": [
+                    "=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "sun.azimuth"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "sun.elevation"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "sun.daylight_duration"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "derived.pressure_change_3h"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "const": "derived.temperature_change_3h"
+                },
+                "op": {
+                  "enum": [
+                    ">",
+                    "<",
+                    "=",
+                    ">=",
+                    "<=",
+                    "!="
+                  ]
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "field",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/condition"
+              }
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/condition"
+              }
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

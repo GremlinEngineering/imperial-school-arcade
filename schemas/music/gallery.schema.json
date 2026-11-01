@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:imperial-school:music-gallery:1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "manifest": {
+            "type": "string"
+          },
+          "track_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "href": {
+            "type": "string"
+          },
+          "card_player": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "manifest"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "game_id": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "audio_key": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}:[0-9]+$"
+          }
+        },
+        "required": [
+          "game_id",
+          "index"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "games",
+    "tracks"
+  ],
+  "additionalProperties": true
+}

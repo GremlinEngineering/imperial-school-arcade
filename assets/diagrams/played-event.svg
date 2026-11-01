@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1240" role="img" aria-labelledby="title desc"><title id="title">Обработали сыгранную игру: что меняется</title><desc id="desc">Обработка сыгранной игры обновляет профиль и определяет изменения. Новая карточка получает редакционные материалы; изменения существующей игры проверяют её редакционные зависимости. Каталог обновляет связанные материалы и собирает сайт.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52665d"/></marker></defs><rect width="1040" height="1240" rx="18" fill="#fbfbf7"/>
+<rect x="150" y="24" width="740" height="100" rx="12" fill="#f0f1ed" stroke="#87968d" stroke-width="1.6"/>
+<text x="520.0" y="54" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Гремлин поиграл</text>
+<text x="520.0" y="89" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Новая игра или возвращение к знакомой</text>
+<rect x="150" y="170" width="740" height="100" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="520.0" y="200" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Обновлён личный профиль</text>
+<text x="520.0" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Время, достижения, прохождения, активность</text>
+<rect x="150" y="316" width="740" height="100" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="520.0" y="346" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Определено, что изменилось</text>
+<text x="520.0" y="381" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Новая карточка, личные достижения или активность</text>
+<path d="M520 124V170" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M520 270V316" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="20" y="480" width="480" height="158" rx="12" fill="#e5edf5" stroke="#6988a3" stroke-width="1.6"/>
+<text x="260.0" y="510" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Новая личная карточка</text>
+<text x="260.0" y="545" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">«Взгляд» и игровые опоры,</text>
+<text x="260.0" y="574" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">русское название и девиз</text>
+<text x="260.0" y="603" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">при доступности источников</text>
+<rect x="540" y="480" width="480" height="158" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="780.0" y="510" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Игра уже в каталоге</text>
+<text x="780.0" y="545" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Прогресс обновляется;</text>
+<text x="780.0" y="574" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">новые личные достижения дают</text>
+<text x="780.0" y="603" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">повод пересмотреть «Взгляд»</text>
+<path d="M520 416V447H260V480" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M520 447H780V480" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="150" y="714" width="740" height="100" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="520.0" y="744" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Личные материалы сохранены</text>
+<text x="520.0" y="779" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Готовые медиа подготавливаются отдельным конвейером</text>
+<path d="M260 638V680H520V714" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M780 638V680H520" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="150" y="860" width="740" height="164" rx="12" fill="#f6efdc" stroke="#a18b54" stroke-width="1.6"/>
+<text x="520.0" y="890" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Плановый цикл проверяет зависимости</text>
+<text x="520.0" y="925" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Синтез с недельным выпуском, серии и признание;</text>
+<text x="520.0" y="954" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">колонки, подборки и расчётные характеристики;</text>
+<text x="520.0" y="983" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">журнал событий и состояние автомата</text>
+<path d="M520 814V860" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="150" y="1080" width="740" height="112" rx="12" fill="#e4efe7" stroke="#57806a" stroke-width="1.6"/>
+<text x="520.0" y="1110" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#243a2e">Собраны страницы и связи</text>
+<text x="520.0" y="1145" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">Движок сущностей, JSON-LD и карта журнала</text>
+<text x="520.0" y="1174" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#243a2e">публикуют подготовленные результаты</text>
+<path d="M520 1024V1080" fill="none" stroke="#52665d" stroke-width="1.8" marker-end="url(#arrow)"/>
+</svg>

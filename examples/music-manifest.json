@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "sample-game",
+  "game": {
+    "id": "sample-game",
+    "title": "Example",
+    "platform": "nes"
+  },
+  "tracks": [
+    {
+      "id": "track-1",
+      "title": "Example track",
+      "subsong": 0,
+      "format": "nsf",
+      "play_ms": 120000,
+      "fade_ms": 5000,
+      "duration_known": false,
+      "asset": {
+        "url": "../files/example.nsf",
+        "bytes": 128,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "format": "nsf"
+      }
+    }
+  ]
+}
